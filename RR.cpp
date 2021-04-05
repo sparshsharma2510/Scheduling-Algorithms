@@ -39,7 +39,7 @@ void checkNewArrival(int timer, int arrival[], int n, int maxProccessIndex,int q
        //(if any arrives)
        if(newArrival)
           queueUpdation(queue,timer,arrival,n, maxProccessIndex);
-	}
+    }
 }
 
 //Driver Code
